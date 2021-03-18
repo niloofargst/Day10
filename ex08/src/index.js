@@ -2,7 +2,7 @@ function getUserName(email) {
     var username = '';
 
     // Only change code below this line
-    var username = {
+    username = {
         'user1@mail.com': 'user1',
         'user2@mail.com': 'user2',
         'user3@mail.com': 'user3',
@@ -24,4 +24,5 @@ console.log(getUserName("user4@mail.com"));
 console.log(getUserName("user5@mail.com"));
 console.log(getUserName("user6@mail.com"));
 console.log(getUserName(""));
+getUserName("user2@mail.com");
 module.exports = getUserName;
