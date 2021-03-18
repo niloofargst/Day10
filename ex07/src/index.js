@@ -13,6 +13,6 @@ function myFunction(deletedProp) {
 
     // Only change code above this line
 }
-
+myFunction("roar");
 console.log(myFunction("roar"));
 module.exports = myFunction;
